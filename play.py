@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from constants import key_map
 
 
 class BrowserCLI:
@@ -20,6 +21,7 @@ class BrowserCLI:
             "scroll": self.scroll,
             "close": self.close_tab,
             "exit": self.exit_browser,
+            "press": self.press_key,
             "type": self.type_text,
             "click": self.click_element,
             "help": self.show_help
@@ -76,6 +78,22 @@ class BrowserCLI:
         except Exception as e:
             print(f"Error clicking element [{method}='{value}']: {e}")
 
+    def press_key(self, key):
+        """Simulates pressing a keyboard key in the browser."""
+
+        if key.lower() in key_map:
+            webdriver.ActionChains(self.driver).send_keys(
+                key_map[key.lower()]).perform()
+            print(f"Pressed {key}")
+        else:
+            print(f"Key '{key}' is not mapped!")
+
+    def get_body_html(self):
+        """Returns the raw HTML of the page starting from the <body> tag."""
+        body_element = self.driver.find_element(
+            "tag name", "body")  # Locate <body> tag
+        return body_element.get_attribute("outerHTML")  # Get its HTML content
+
     def exit_browser(self):
         self.driver.quit()
         print("Browser closed. Exiting CLI.")
@@ -88,6 +106,7 @@ class BrowserCLI:
               "  click <method> <value>  - Click an element by id, class, name, or xpath\n"
               "  type <method> <value> <text> - Type text into an input field\n"
               "  switch <index>      - Switch to a tab (1-based index)\n"
+              "  press <key>         - Press a keyboard key\n"
               "  scroll <up/down> <pixels> - Scroll up or down\n"
               "  close               - Close the current tab\n"
               "  exit                - Close browser and exit\n")
