@@ -2,6 +2,7 @@ import pyttsx3
 from time import sleep
 import gemini
 import speech_recognition as sr
+import spotify
 
 
 engine = pyttsx3.init()
@@ -14,13 +15,17 @@ with sr.Microphone() as source:
     while True:
         print("Say something...")
         audio = recognizer.listen(source)
+        
         try:
             text = recognizer.recognize_whisper(audio)
-            response = gemini.model.generate_content(text)
-            for chunk in response:
-                engine.say(chunk.text)
-                print(chunk.text)
-                engine.runAndWait()
+            print(text)
+            if "play" in text.lower():
+                spotify.play_song(text.lower().split("play")[1])
+                continue
+            response = gemini.model.generate_content(text).text
+            engine.say(response)
+            engine.runAndWait()
+            
         except sr.UnknownValueError:
             print("Could not understand the audio")
         except sr.RequestError:
