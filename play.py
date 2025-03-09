@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from constants import key_map
+from gemini import Gemini
+from typing import List, Dict, Any
 
 
 class BrowserCLI:
@@ -12,6 +14,8 @@ class BrowserCLI:
         options.add_argument("--start-maximized")
         self.driver = webdriver.Chrome(service=Service(
             ChromeDriverManager().install()), options=options)
+        self.model = Gemini("AIzaSyAkSmvQGTAMQblIWJPT0ufPzr7vFLgmJog")
+        self.xpaths = []
 
         # Command mapping
         self.commands = {
@@ -57,26 +61,48 @@ class BrowserCLI:
         self.driver.execute_script(f"window.scrollBy(0, {scroll_value});")
         print(f"Scrolled {direction} by {amount} pixels")
 
-    def type_text(self, method, value, *text):
-        """Type text into an input field using id, class, name, xpath, css"""
-
-        text = " ".join(text)  # Combine multiple words
+    def type_text(self, *text):
         try:
-            element = self.driver.find_element(method, value)
+            element = self.driver.find_element("xpath", self.xpaths[-1])
             element.clear()
-            element.send_keys(text)
-            print(f"Typed '{text}' into [{method}='{value}']")
+            element.send_keys(" ".join(text))
+            print(f"Typed '{text}' into element: {element}")
         except Exception as e:
-            print(f"Error typing into [{method}='{value}']: {e}")
+            print(f"Error typing into element: {e}")
 
-    def click_element(self, method, value):
-        """Click an element using different methods (id, class, name, xpath)"""
+    # def type_text(self, method, value, *text):
+    #     """Type text into an input field using id, class, name, xpath, css"""
+
+    #     text = " ".join(text)  # Combine multiple words
+    #     try:
+    #         element = self.driver.find_element(method, value)
+    #         element.clear()
+    #         element.send_keys(text)
+    #         print(f"Typed '{text}' into [{method}='{value}']")
+    #     except Exception as e:
+    #         print(f"Error typing into [{method}='{value}']: {e}")
+
+    def click_element(self, *element) -> None:
         try:
-            element = self.driver.find_element(method, value)
+            element = " ".join(element)
+            response = self.model.get_xpath(self.get_body_html(), element)
+            xpath = response["xpath"]
+            self.xpaths.append(xpath)
+            print(f"Extracted XPath: {xpath}")
+            element = self.driver.find_element("xpath", xpath)
             element.click()
-            print(f"Clicked element [{method}='{value}']")
+            print(f"Clicked element: {element}")
         except Exception as e:
-            print(f"Error clicking element [{method}='{value}']: {e}")
+            print(f"Error clicking element: {e}")
+
+    # def click_element(self, method, value):
+    #     """Click an element using different methods (id, class, name, xpath)"""
+    #     try:
+    #         element = self.driver.find_element(method, value)
+    #         element.click()
+    #         print(f"Clicked element [{method}='{value}']")
+    #     except Exception as e:
+    #         print(f"Error clicking element [{method}='{value}']: {e}")
 
     def press_key(self, key):
         """Simulates pressing a keyboard key in the browser."""
@@ -103,8 +129,8 @@ class BrowserCLI:
         print("\nCommands:\n"
               "  open <url>          - Open a website in the current tab\n"
               "  newtab <url>        - Open a new tab with a website\n"
-              "  click <method> <value>  - Click an element by id, class, name, or xpath\n"
-              "  type <method> <value> <text> - Type text into an input field\n"
+              "  click element  - Click an element\n"
+              "  type <text> - Type text into an input field\n"
               "  switch <index>      - Switch to a tab (1-based index)\n"
               "  press <key>         - Press a keyboard key\n"
               "  scroll <up/down> <pixels> - Scroll up or down\n"
