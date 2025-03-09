@@ -1,0 +1,561 @@
+/c/Users/santh/Contacts/desktop.ini
+/c/Users/santh/Desktop/desktop.ini
+/c/Users/santh/Documents/106106184.pdf
+/c/Users/santh/Documents/DeLiT Summer Magz_.pdf
+/c/Users/santh/Documents/desktop.ini
+/c/Users/santh/Documents/HHO-API/config/connectDB.ts
+/c/Users/santh/Documents/HHO-API/config/redisClient.ts
+/c/Users/santh/Documents/HHO-API/controllers/activityController.ts
+/c/Users/santh/Documents/HHO-API/controllers/donationController.ts
+/c/Users/santh/Documents/HHO-API/controllers/eventController.ts
+/c/Users/santh/Documents/HHO-API/controllers/moneyController.ts
+/c/Users/santh/Documents/HHO-API/controllers/offUserController.ts
+/c/Users/santh/Documents/HHO-API/controllers/subEventController.ts
+/c/Users/santh/Documents/HHO-API/controllers/testimonialController.ts
+/c/Users/santh/Documents/HHO-API/controllers/transactionController.ts
+/c/Users/santh/Documents/HHO-API/controllers/volunteerController.ts
+/c/Users/santh/Documents/HHO-API/exceptions/CustomError.ts
+/c/Users/santh/Documents/HHO-API/index.ts
+/c/Users/santh/Documents/HHO-API/middleware/errorHandler.ts
+/c/Users/santh/Documents/HHO-API/middleware/middleware.ts
+/c/Users/santh/Documents/HHO-API/models/ActivityModel.ts
+/c/Users/santh/Documents/HHO-API/models/DonationModel.ts
+/c/Users/santh/Documents/HHO-API/models/EventModel.ts
+/c/Users/santh/Documents/HHO-API/models/EventRegistrationModel.ts
+/c/Users/santh/Documents/HHO-API/models/feedback.ts
+/c/Users/santh/Documents/HHO-API/models/MoneyModel.ts
+/c/Users/santh/Documents/HHO-API/models/off_users.ts
+/c/Users/santh/Documents/HHO-API/models/SubEventModel.ts
+/c/Users/santh/Documents/HHO-API/models/TestimonialModel.ts
+/c/Users/santh/Documents/HHO-API/models/TransactionModel.ts
+/c/Users/santh/Documents/HHO-API/models/volunteer.ts
+/c/Users/santh/Documents/HHO-API/package-lock.json
+/c/Users/santh/Documents/HHO-API/package.json
+/c/Users/santh/Documents/HHO-API/repository/ActivityRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/crudRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/DonationRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/EventRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/OffUserRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/SubEventRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/testimonialRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/transactionRepo.ts
+/c/Users/santh/Documents/HHO-API/repository/VolunteerRepo.ts
+/c/Users/santh/Documents/HHO-API/routes/activityRoutes.ts
+/c/Users/santh/Documents/HHO-API/routes/donationRoutes.ts
+/c/Users/santh/Documents/HHO-API/routes/eventRoute.ts
+/c/Users/santh/Documents/HHO-API/routes/moneyRoutes.ts
+/c/Users/santh/Documents/HHO-API/routes/offuserRoutes.ts
+/c/Users/santh/Documents/HHO-API/routes/subEventRoute.ts
+/c/Users/santh/Documents/HHO-API/routes/testimonialRoute.ts
+/c/Users/santh/Documents/HHO-API/routes/transactionRoutes.ts
+/c/Users/santh/Documents/HHO-API/routes/volunteerRoutes.ts
+/c/Users/santh/Documents/HHO-API/services/ActivityService.ts
+/c/Users/santh/Documents/HHO-API/services/DonationService.ts
+/c/Users/santh/Documents/HHO-API/services/EventService.ts
+/c/Users/santh/Documents/HHO-API/services/MoneyService.ts
+/c/Users/santh/Documents/HHO-API/services/OffUserService.ts
+/c/Users/santh/Documents/HHO-API/services/TestimonialService.ts
+/c/Users/santh/Documents/HHO-API/services/TransactionService.ts
+/c/Users/santh/Documents/HHO-API/services/VolunteerService.ts
+/c/Users/santh/Documents/HHO-API/stress_test/package-lock.json
+/c/Users/santh/Documents/HHO-API/stress_test/package.json
+/c/Users/santh/Documents/HHO-API/stress_test/test.js
+/c/Users/santh/Documents/HHO-API/tsconfig.json
+/c/Users/santh/Documents/HHO-API/types/activityType.ts
+/c/Users/santh/Documents/HHO-API/types/donationType.ts
+/c/Users/santh/Documents/HHO-API/types/eventRegistrationType.ts
+/c/Users/santh/Documents/HHO-API/types/eventType.ts
+/c/Users/santh/Documents/HHO-API/types/feedbackType.ts
+/c/Users/santh/Documents/HHO-API/types/moneyType.ts
+/c/Users/santh/Documents/HHO-API/types/offUserType.ts
+/c/Users/santh/Documents/HHO-API/types/subEventType.ts
+/c/Users/santh/Documents/HHO-API/types/testimonialType.ts
+/c/Users/santh/Documents/HHO-API/types/transactionType.ts
+/c/Users/santh/Documents/HHO-API/types/volunteerType.ts
+/c/Users/santh/Documents/HHO-Client/api-endPoints.txt
+/c/Users/santh/Documents/HHO-Client/package-lock.json
+/c/Users/santh/Documents/HHO-Client/package.json
+/c/Users/santh/Documents/HHO-Client/public/activities.json
+/c/Users/santh/Documents/HHO-Client/public/donations.json
+/c/Users/santh/Documents/HHO-Client/public/favicon.ico
+/c/Users/santh/Documents/HHO-Client/public/index.html
+/c/Users/santh/Documents/HHO-Client/public/logo192.png
+/c/Users/santh/Documents/HHO-Client/public/logo512.png
+/c/Users/santh/Documents/HHO-Client/public/manifest.json
+/c/Users/santh/Documents/HHO-Client/public/robots.txt
+/c/Users/santh/Documents/HHO-Client/public/team.json
+/c/Users/santh/Documents/HHO-Client/public/transactions.json
+/c/Users/santh/Documents/HHO-Client/README.md
+/c/Users/santh/Documents/HHO-Client/README.old.md
+/c/Users/santh/Documents/HHO-Client/src/App.css
+/c/Users/santh/Documents/HHO-Client/src/App.js
+/c/Users/santh/Documents/HHO-Client/src/App.test.js
+/c/Users/santh/Documents/HHO-Client/src/components/About/AboutContent.css
+/c/Users/santh/Documents/HHO-Client/src/components/About/AboutContent.js
+/c/Users/santh/Documents/HHO-Client/src/components/About/TeamSection.css
+/c/Users/santh/Documents/HHO-Client/src/components/About/TeamSection.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/Accountant.css
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/AcctDashbord.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/AllDonations.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/DonationCard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/NewDonation.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/NewTransaction.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/PastTransactions.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/SearchTransactions.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Accountant/TransactionCard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Activities/AllActivities.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Activities/DeleteWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Activities/EditWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Activities/NewActivity.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/AdminDashboard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/EmptyPage.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Testimonials/AllTestimonials.css
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Testimonials/AllTestimonials.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Testimonials/DeleteWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Testimonials/EditWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Testimonials/NewTestimonial.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Users/AllUsers.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Users/DeleteWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Users/EditWindow.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/Admin/Users/NewUser.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/AllEventsDisplay.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/CoreDashbord.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/EventDetails.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/EventForm.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/NewEventDisplay.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/SubEventEdit.js
+/c/Users/santh/Documents/HHO-Client/src/components/Dashbord/core/SubEventsDisplay.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/accordion.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/accordion.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/Card.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/Card.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/chaitra.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/Chaitra.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/DetailedEvent.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/EventCountdown.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/EventDetail.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/EventDetail.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/EventSection.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/EventSection.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/img_gallery.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/img_gallery.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/past_events.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/past_events.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/people.jpg
+/c/Users/santh/Documents/HHO-Client/src/components/Event/PreEvents.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/pre_events.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/pre_events.js
+/c/Users/santh/Documents/HHO-Client/src/components/Event/slider.css
+/c/Users/santh/Documents/HHO-Client/src/components/Event/Slider.js
+/c/Users/santh/Documents/HHO-Client/src/components/footer.css
+/c/Users/santh/Documents/HHO-Client/src/components/footer.js
+/c/Users/santh/Documents/HHO-Client/src/components/Home/herosection.css
+/c/Users/santh/Documents/HHO-Client/src/components/Home/herosection.js
+/c/Users/santh/Documents/HHO-Client/src/components/Home/testimonals.css
+/c/Users/santh/Documents/HHO-Client/src/components/Home/testimonals.js
+/c/Users/santh/Documents/HHO-Client/src/components/Home/timeline.css
+/c/Users/santh/Documents/HHO-Client/src/components/Home/timeline.js
+/c/Users/santh/Documents/HHO-Client/src/components/LoadingAnimation.js
+/c/Users/santh/Documents/HHO-Client/src/components/Login/LoginSection.css
+/c/Users/santh/Documents/HHO-Client/src/components/Login/LoginSection.js
+/c/Users/santh/Documents/HHO-Client/src/components/navbar.css
+/c/Users/santh/Documents/HHO-Client/src/components/Navbar.js
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/Activities.js
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/Donations.js
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/LeftImageCard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/RightImageCard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/ServicesBanner.css
+/c/Users/santh/Documents/HHO-Client/src/components/Ourservices/ServicesBanner.js
+/c/Users/santh/Documents/HHO-Client/src/components/PrivateRole.js
+/c/Users/santh/Documents/HHO-Client/src/components/PrivateRoute.js
+/c/Users/santh/Documents/HHO-Client/src/components/Profile/ProfileBanner.js
+/c/Users/santh/Documents/HHO-Client/src/components/Profile/ProfileContent.css
+/c/Users/santh/Documents/HHO-Client/src/components/Profile/ProfileContent.js
+/c/Users/santh/Documents/HHO-Client/src/components/profile.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/AboutContentSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/ActivitiesSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/DonationsSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/OurservicesSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/TeamSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Skeletons/TransactionSkeleton.js
+/c/Users/santh/Documents/HHO-Client/src/components/Transaction/TransactionCard.js
+/c/Users/santh/Documents/HHO-Client/src/components/Transaction/TransactionLayout.js
+/c/Users/santh/Documents/HHO-Client/src/context/Context.js
+/c/Users/santh/Documents/HHO-Client/src/index.css
+/c/Users/santh/Documents/HHO-Client/src/index.js
+/c/Users/santh/Documents/HHO-Client/src/logo.svg
+/c/Users/santh/Documents/HHO-Client/src/Pages/About/AboutPage.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Dashbord/Dashbord.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Event/Event.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Home/Home.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Login/LoginPage.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Ourservices/OurservicesPage.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Profile/ProfilePage.js
+/c/Users/santh/Documents/HHO-Client/src/Pages/Transaction/TransactionPage.js
+/c/Users/santh/Documents/HHO-Client/src/reportWebVitals.js
+/c/Users/santh/Documents/HHO-Client/src/setupTests.js
+/c/Users/santh/Documents/I am very delighted to introduce my.txt
+/c/Users/santh/Documents/Shelf/Anxiety is the Dizziness of Freedom.pdf
+/c/Users/santh/Documents/Shelf/DAulaires Book of Greek Myt_ (Z-Library).pdf
+/c/Users/santh/Documents/Shelf/Myths & Legends_ An illustrated guide to their origins and meanings ( PDFDrive ).pdf
+/c/Users/santh/Documents/Shelf/The_Bell_Jar_(Sylvia_Plath).pdf
+/c/Users/santh/Documents/Shelf/The Etymologicon (Mark Fors_ (Z-Library).pdf
+/c/Users/santh/Documents/Shelf/The Mahabharata of Krishna-Dwaipayana Vyasa (Complete 18 Volumes) - Kisari Mohan Ganguli.pdf
+/c/Users/santh/Documents/Shelf/Watchmen (Alan Moore, Dave_ (Z-Library).pdf
+/c/Users/santh/Documents/Shelf/Watchmen (New Edition) (2019) (digital) (Son of Ultron-Empire).cbr
+/c/Users/santh/Documents/Spring Magazine DeLiT.pdf
+/c/Users/santh/Documents/stuff/aa.jpg
+/c/Users/santh/Documents/stuff/E-AADHAR_R200148.pdf
+/c/Users/santh/Documents/stuff/Iam.jpg
+/c/Users/santh/Documents/stuff/myresume.pdf
+/c/Users/santh/Documents/stuff/My_Resume (1).pdf
+/c/Users/santh/Documents/stuff/My_Resume.pdf
+/c/Users/santh/Documents/stuff/R200148.jpg
+/c/Users/santh/Documents/stuff/Resume of .pdf
+/c/Users/santh/Documents/stuff/sign.jpg
+/c/Users/santh/Documents/stuff/skys_resume.pdf
+/c/Users/santh/Documents/stuff/Untitled design_20250131_114006_0000.jpg
+/c/Users/santh/Documents/The Bell Jar (Sylvia Plath) (Z-Library).pdf
+/c/Users/santh/Downloads/AI Mid 2.pdf
+/c/Users/santh/Downloads/AI_Day10.pdf
+/c/Users/santh/Downloads/AI_Day12.pdf
+/c/Users/santh/Downloads/AI_Day6.pdf
+/c/Users/santh/Downloads/AI_Day7.pdf
+/c/Users/santh/Downloads/AI_Day8.pdf
+/c/Users/santh/Downloads/AI_Day9.pdf
+/c/Users/santh/Downloads/anil.csv
+/c/Users/santh/Downloads/CHEM_BROS (1).csv
+/c/Users/santh/Downloads/CHEM_BROS.csv
+/c/Users/santh/Downloads/chinese_remainder.pdf
+/c/Users/santh/Downloads/CIVIL_BROS (1).csv
+/c/Users/santh/Downloads/CIVIL_BROS.csv
+/c/Users/santh/Downloads/CNS-unit3.pdf
+/c/Users/santh/Downloads/CNS-unit4.pdf
+/c/Users/santh/Downloads/CNSNESO.zip
+/c/Users/santh/Downloads/cs011_1_p
+/c/Users/santh/Downloads/cs011_2_p
+/c/Users/santh/Downloads/cs011_3_p
+/c/Users/santh/Downloads/cs011_4_p
+/c/Users/santh/Downloads/cs011_5_p
+/c/Users/santh/Downloads/cs011_6_p
+/c/Users/santh/Downloads/cs011_7_p
+/c/Users/santh/Downloads/CSE.pdf
+/c/Users/santh/Downloads/CSE_BROS (1).csv
+/c/Users/santh/Downloads/CSE_BROS.csv
+/c/Users/santh/Downloads/data
+/c/Users/santh/Downloads/data.db
+/c/Users/santh/Downloads/Deep Learning - IIT Ropar - - Unit 8 - Week 5.pdf
+/c/Users/santh/Downloads/Deep Learning - IIT Ropar - - Unit 9 - Week 6.pdf
+/c/Users/santh/Downloads/deep-learning-week-5_compress.pdf
+/c/Users/santh/Downloads/desktop.ini
+/c/Users/santh/Downloads/e3s4.csv
+/c/Users/santh/Downloads/ECE_BROS.csv
+/c/Users/santh/Downloads/ECE_BROS.pdf
+/c/Users/santh/Downloads/EEE_BROS (1).csv
+/c/Users/santh/Downloads/EEE_BROS.csv
+/c/Users/santh/Downloads/EEE_bros.pdf
+/c/Users/santh/Downloads/EPI Mid 2.pdf
+/c/Users/santh/Downloads/Final E3 A.Y 2024-25 Sem-2 Final (2) (2).xlsx
+/c/Users/santh/Downloads/forward_backward_reasoning.pdf
+/c/Users/santh/Downloads/Gemini_Generated_Image_v8xvliv8xvliv8xv.jpeg
+/c/Users/santh/Downloads/GTA SA/G7A_S4/Downgrade 1.0/gta_sa.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/AA
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/ADVERTS
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/AMBIENCE
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/BEATS
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/CH
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/CO
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/CR
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/CUTSCENE
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/DS
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/HC
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/MH
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/MR
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/NJ
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/RE
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/RG
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/audio/STREAMS/TK
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/autorun.inf
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Bin/Autorun.ico
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Bin/demo32.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Bin/gdiplus.dll
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Bin/gta_SA_demoshield.dbd
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Bin/Gta_sa_demoshield.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/data1.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/data1.hdr
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/data2.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/data3.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/data4.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/BDA.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/BDANT.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/BDAXP.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/DirectX.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/DSETUP.dll
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/dsetup32.dll
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/dxnt.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/dxsetup.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/DirectX/ManagedDX.CAB
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/engine32.cab
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/gta_sa.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Install.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Install.ini
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/layout.bin
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Readme/DEU/ReadMe.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Readme/ENU/ReadMe.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Readme/ESP/ReadMe.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Readme/FRA/ReadMe.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/Readme/ITA/ReadMe.txt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/setup.bmp
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/setup.exe
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/setup.ibt
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/setup.ini
+/c/Users/santh/Downloads/GTA SA/G7A_S4/GT4_S4n_4ndr34s/setup.isn
+/c/Users/santh/Downloads/Hands-On Machine Learning w_ (Z-Library).pdf
+/c/Users/santh/Downloads/HD Gradient Backgrounds Free Download (1).jpeg
+/c/Users/santh/Downloads/HD Gradient Backgrounds Free Download.jpeg
+/c/Users/santh/Downloads/ilide.info-deep-learning-iit-ropar-unit-7-week-4-pr_3428d21542ac88e9a1094cf607cd46dc.pdf
+/c/Users/santh/Downloads/ilide.info-deep-learning-iit-ropar-unit-9-week-6-pr_b7bcd2887fedae3d94e435115da58d3c.pdf
+/c/Users/santh/Downloads/ilide.info-se-all-assignment-pr_ab3076e6c0af9f1bd27e318626891f67.pdf
+/c/Users/santh/Downloads/Lecture7.pdf
+/c/Users/santh/Downloads/line.html
+/c/Users/santh/Downloads/MECH_BROS (1).csv
+/c/Users/santh/Downloads/MECH_BROS.csv
+/c/Users/santh/Downloads/ml_feb21_023824.pdf
+/c/Users/santh/Downloads/MME_BROS (1).csv
+/c/Users/santh/Downloads/MME_BROS.csv
+/c/Users/santh/Downloads/Natural Deduction (4).pdf
+/c/Users/santh/Downloads/Object Oriented System Development Using UML, Java And Patterns - - Unit 8 - Week 5 _.pdf
+/c/Users/santh/Downloads/Object Oriented System Development Using UML, Java And Patterns - - Unit 9 - Week 6 _.pdf
+/c/Users/santh/Downloads/Phone Link/Solo Leveling - S02E08 - This is Frustrating.mkv
+/c/Users/santh/Downloads/platform-tools/platform-tools/adb.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/AdbWinApi.dll
+/c/Users/santh/Downloads/platform-tools/platform-tools/AdbWinUsbApi.dll
+/c/Users/santh/Downloads/platform-tools/platform-tools/etc1tool.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/fastboot.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/hprof-conv.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/libwinpthread-1.dll
+/c/Users/santh/Downloads/platform-tools/platform-tools/make_f2fs.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/make_f2fs_casefold.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/mke2fs.conf
+/c/Users/santh/Downloads/platform-tools/platform-tools/mke2fs.exe
+/c/Users/santh/Downloads/platform-tools/platform-tools/NOTICE.txt
+/c/Users/santh/Downloads/platform-tools/platform-tools/source.properties
+/c/Users/santh/Downloads/platform-tools/platform-tools/sqlite3.exe
+/c/Users/santh/Downloads/R200148_Examcell_RGUKT_RKV.pdf
+/c/Users/santh/Downloads/R200148_R200026_boss.mp3
+/c/Users/santh/Downloads/R200148_R200026_hotel.mp3
+/c/Users/santh/Downloads/Solo Leveling - S02E07 - The 10th S-Rank Hunter.mkv
+/c/Users/santh/Downloads/sree.csv
+/c/Users/santh/Downloads/the_data.csv
+/c/Users/santh/Downloads/utweb_installer.exe
+/c/Users/santh/Downloads/video.mp4
+/c/Users/santh/Downloads/week 4.pdf
+/c/Users/santh/Downloads/yolo11n.pt
+/c/Users/santh/Music/desktop.ini
+/c/Users/santh/OneDrive/desktop.ini
+/c/Users/santh/OneDrive/Getting started with OneDrive.pdf
+/c/Users/santh/OneDrive/Personal Vault.lnk
+/c/Users/santh/Pictures/Camera Roll/desktop.ini
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_17_36_Pro.mp4
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_52_10_Pro.mp4
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_52_44_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_52_49_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_53_18_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_53_21_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_53_34_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_53_46_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_10_53_55_Pro.jpg
+/c/Users/santh/Pictures/Camera Roll/WIN_20250308_11_05_53_Pro.mp4
+/c/Users/santh/Pictures/desktop.ini
+/c/Users/santh/Pictures/Gollum.PNG
+/c/Users/santh/Pictures/icarusfall.jpg
+/c/Users/santh/Pictures/icon.png
+/c/Users/santh/Pictures/image.png.jpg
+/c/Users/santh/Pictures/R200148.jpg
+/c/Users/santh/Pictures/redflower.jpg
+/c/Users/santh/Pictures/Screenshots/browser.png
+/c/Users/santh/Pictures/Screenshots/desktop.ini
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-01-25 090346.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-01 102244.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-02 002435.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-02 002612.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-03 190852.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 111132.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 111147.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 111213.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 111221.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 111228.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 114113.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 114132.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 114141.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 114215.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 114221.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-04 211306.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-05 162019.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-05 212909.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-05 233030.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-06 121603.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-06 123751.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-09 153640.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 183832.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 185234.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 190940.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 205653.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 205810.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 205848.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 230121.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 230213.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 230236.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 230954.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-10 231125.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-11 001719.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-11 181950.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-13 150003.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-16 161539.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-18 010438.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-18 010510.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-18 012532.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-18 012558.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-19 170238.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-19 174344.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-20 180355.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-21 224335.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-23 222647.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-23 225411.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 113105.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 113442.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 114146.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 152103.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 211206.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 211939.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-25 215237.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-27 174927.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-27 182801.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-02-27 220820.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 144553.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 145031.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 145338.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 145417.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 145447.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 212250.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-05 220644.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-06 163552.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-06 164900.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-06 171418.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-06 181050.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 212305.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 213421.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 214338.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 220223.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 220936.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 223122.png
+/c/Users/santh/Pictures/Screenshots/Screenshot 2025-03-08 224110.png
+/c/Users/santh/Pictures/Screenshots/Week3_Deep_Learning.pdf
+/c/Users/santh/Pictures/Screenshots/Week3_OOAD.pdf
+/c/Users/santh/Pictures/Screenshot_20250115_195016[1].jpg
+/c/Users/santh/Pictures/tanjiro.jpg
+/c/Users/santh/Pictures/Thanos the Mad Titan.jpeg
+/c/Users/santh/Videos/$((Get-Random).Next()).txt
+/c/Users/santh/Videos/10358
+/c/Users/santh/Videos/1075
+/c/Users/santh/Videos/11321
+/c/Users/santh/Videos/11563
+/c/Users/santh/Videos/11706
+/c/Users/santh/Videos/11780
+/c/Users/santh/Videos/1195
+/c/Users/santh/Videos/12036
+/c/Users/santh/Videos/12053
+/c/Users/santh/Videos/12769
+/c/Users/santh/Videos/13096
+/c/Users/santh/Videos/13357
+/c/Users/santh/Videos/13551
+/c/Users/santh/Videos/13733
+/c/Users/santh/Videos/14703
+/c/Users/santh/Videos/14951
+/c/Users/santh/Videos/15405
+/c/Users/santh/Videos/15729
+/c/Users/santh/Videos/16609
+/c/Users/santh/Videos/17545
+/c/Users/santh/Videos/17548
+/c/Users/santh/Videos/18062
+/c/Users/santh/Videos/18216
+/c/Users/santh/Videos/19027
+/c/Users/santh/Videos/19234
+/c/Users/santh/Videos/19640
+/c/Users/santh/Videos/19912
+/c/Users/santh/Videos/20037
+/c/Users/santh/Videos/20155
+/c/Users/santh/Videos/20236
+/c/Users/santh/Videos/20604
+/c/Users/santh/Videos/20749
+/c/Users/santh/Videos/20946
+/c/Users/santh/Videos/21327
+/c/Users/santh/Videos/2161
+/c/Users/santh/Videos/22158
+/c/Users/santh/Videos/22185
+/c/Users/santh/Videos/22191
+/c/Users/santh/Videos/22196
+/c/Users/santh/Videos/22587
+/c/Users/santh/Videos/228
+/c/Users/santh/Videos/23338
+/c/Users/santh/Videos/24570
+/c/Users/santh/Videos/2458
+/c/Users/santh/Videos/24679
+/c/Users/santh/Videos/24824
+/c/Users/santh/Videos/25226
+/c/Users/santh/Videos/26689
+/c/Users/santh/Videos/26944
+/c/Users/santh/Videos/2719
+/c/Users/santh/Videos/27416
+/c/Users/santh/Videos/28640
+/c/Users/santh/Videos/28770
+/c/Users/santh/Videos/28883
+/c/Users/santh/Videos/29046
+/c/Users/santh/Videos/29626
+/c/Users/santh/Videos/29687
+/c/Users/santh/Videos/29696
+/c/Users/santh/Videos/3023
+/c/Users/santh/Videos/30270
+/c/Users/santh/Videos/30495
+/c/Users/santh/Videos/31070
+/c/Users/santh/Videos/31257
+/c/Users/santh/Videos/31581
+/c/Users/santh/Videos/31586
+/c/Users/santh/Videos/32129
+/c/Users/santh/Videos/32602
+/c/Users/santh/Videos/32740
+/c/Users/santh/Videos/360
+/c/Users/santh/Videos/376
+/c/Users/santh/Videos/3898
+/c/Users/santh/Videos/4179
+/c/Users/santh/Videos/4392
+/c/Users/santh/Videos/4646
+/c/Users/santh/Videos/4853
+/c/Users/santh/Videos/487
+/c/Users/santh/Videos/4892
+/c/Users/santh/Videos/5237
+/c/Users/santh/Videos/5479
+/c/Users/santh/Videos/5569
+/c/Users/santh/Videos/6652
+/c/Users/santh/Videos/6710
+/c/Users/santh/Videos/6986
+/c/Users/santh/Videos/7048
+/c/Users/santh/Videos/7461
+/c/Users/santh/Videos/7669
+/c/Users/santh/Videos/7713
+/c/Users/santh/Videos/7887
+/c/Users/santh/Videos/8009
+/c/Users/santh/Videos/8224
+/c/Users/santh/Videos/8375
+/c/Users/santh/Videos/8480
+/c/Users/santh/Videos/8835
+/c/Users/santh/Videos/8916
+/c/Users/santh/Videos/8941
+/c/Users/santh/Videos/9105
+/c/Users/santh/Videos/9252
+/c/Users/santh/Videos/9471
+/c/Users/santh/Videos/9641
+/c/Users/santh/Videos/9954
+/c/Users/santh/Videos/Captures/desktop.ini
+/c/Users/santh/Videos/desktop.ini
+/c/Users/santh/Videos/video_20250308_111127.mp4
