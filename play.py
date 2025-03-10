@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from constants import key_map
-from gemini import Gemini
+from models.web_model import get_xpath
 from typing import List, Dict, Any
 
 
@@ -14,7 +14,6 @@ class BrowserCLI:
         options.add_argument("--start-maximized")
         self.driver = webdriver.Chrome(service=Service(
             ChromeDriverManager().install()), options=options)
-        self.model = Gemini("AIzaSyAkSmvQGTAMQblIWJPT0ufPzr7vFLgmJog")
         self.xpaths = []
 
         # Command mapping
@@ -85,7 +84,7 @@ class BrowserCLI:
     def click_element(self, *element) -> None:
         try:
             element = " ".join(element)
-            response = self.model.get_xpath(self.get_body_html(), element)
+            response = get_xpath(self.get_body_html(), element)
             xpath = response["xpath"]
             self.xpaths.append(xpath)
             print(f"Extracted XPath: {xpath}")

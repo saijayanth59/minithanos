@@ -1,30 +1,4 @@
 from selenium.webdriver.common.keys import Keys
-from google.ai.generativelanguage_v1beta.types import content
-
-xpath = {
-    "model_name": "gemini-2.0-flash",
-    "generation_config": {
-        "temperature": 1,
-        "response_schema": content.Schema(
-            type=content.Type.OBJECT,
-            description="Extracts the exact XPath of a UI element based on the provided raw HTML and description.",
-            properties={
-                "xpath": content.Schema(
-                    type=content.Type.STRING,
-                    description="The exact XPath of the specified UI element in the DOM."
-                )
-            },
-            required=["xpath"]
-        ),
-        "response_mime_type": "application/json",
-    },
-    "prompt": lambda rawHtml, element: ["I will give the raw html and description of the ui element give me exact the xpath with 100 accuracy", f"UI element: {element}\n", f"Raw html: {rawHtml}\n"]
-}
-
-model_params = {
-    "xpath": xpath
-}
-
 
 key_map = {
     "enter": Keys.ENTER,
