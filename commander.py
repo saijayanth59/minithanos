@@ -1,4 +1,4 @@
-from models import commander_model
+from gemini import commander_model
 import subprocess
 
 while True:
