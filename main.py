@@ -1,5 +1,4 @@
-import gemini
-import spotify
+import agents.spotify as spotify
 from RealtimeSTT import AudioToTextRecorder
 
 

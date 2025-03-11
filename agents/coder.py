@@ -1,4 +1,4 @@
-from gemini_models import coder_model
+from gemini import coder_model
 from gui_utils import write_text
 
 def write_code(prompt):
