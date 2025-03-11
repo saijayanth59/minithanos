@@ -5,7 +5,7 @@ from RealtimeSTT import AudioToTextRecorder
 
 def process_input(text):
     if "play" in text.lower():
-        spotify.play_song(text.lower().split("play")[1])   
+        spotify.play_song(text.lower().split("play")[1])
 
 
 if __name__ == "__main__":

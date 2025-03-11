@@ -12,4 +12,4 @@ def play_song(name):
     pg.press("esc")
     
 if __name__ == '__main__':
-    play_song("dancing with your ghost") 
+    play_song("dancing with your ghost")

@@ -1,14 +1,8 @@
-import base64
-import os
-from google import genai
+from .client import client
 from google.genai import types
 
 
 def generate(prompt):
-    client = genai.Client(
-        api_key="AIzaSyA7SbKNMH1FWqgu232oTEAzjg_yisa4bWw",
-    )
-
     files = [
         # Make the file available in local system working directory
         client.files.upload(file="files.txt"),
