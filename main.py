@@ -1,5 +1,7 @@
 from RealtimeSTT import AudioToTextRecorder
 from agents.god import do
+from RealtimeSTT import AudioToTextRecorder
+
 
 
 def process_input(text):
