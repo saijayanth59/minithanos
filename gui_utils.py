@@ -7,3 +7,6 @@ def write_text(text):
         pyperclip.copy(line)
         pg.hotkey("ctrl", "v")
         pg.press("enter")
+
+def press_shortcut(shortcut):
+    pg.hotkey(*shortcut)
