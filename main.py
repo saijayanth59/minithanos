@@ -4,6 +4,8 @@ from RealtimeSTT import AudioToTextRecorder
 
 
 
+
+
 def process_input(text):
     if "gemini" in text.lower():
         print(text)
