@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from models.web_model import get_xpath, get_summarize_text
+from gemini.web_model import get_xpath, get_summarize_text
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from urllib.parse import urljoin
