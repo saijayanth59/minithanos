@@ -10,6 +10,3 @@ def write_code(prompt: str) -> None:
     """
     code = coder_model.generate(prompt).model_dump()['parsed']['code']
     write_text(code)
-
-        
-write_code("write code for trapping rain water")

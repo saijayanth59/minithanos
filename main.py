@@ -1,13 +1,14 @@
-import agents.spotify as spotify
 from RealtimeSTT import AudioToTextRecorder
+from agents.god import do
 
 
 def process_input(text):
-    if "play" in text.lower():
-        spotify.play_song(text.lower().split("play")[1])
+    if "gemini" in text.lower():
+        print(text)
+        print(do(text))
 
 
 if __name__ == "__main__":
-    recorder = AudioToTextRecorder(language="en")
+    recorder = AudioToTextRecorder(language="en", spinner=False)
     while True:
         recorder.text(process_input)
