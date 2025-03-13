@@ -12,6 +12,7 @@ def run_command(task: str) -> None:
     for _ in range(3):
         command = commander_model.generate(task)
         output = subprocess.run([r"C:\Program Files\Git\bin\bash.exe", "-c", command], shell=True, capture_output=True)
+        print(output)
         if output.stderr != b'':
             continue
         break 
