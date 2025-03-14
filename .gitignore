@@ -3,3 +3,7 @@ venv/
 .idea/
 .venv/
 realtimesst.log
+realtimesst.log
+zsh.exe.stackdump
+files.txt
+.env
