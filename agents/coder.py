@@ -1,5 +1,5 @@
 from gemini import coder_model
-from gui_utils import write_text
+from utils import write_text
 
 
 def write_code(prompt: str) -> None:

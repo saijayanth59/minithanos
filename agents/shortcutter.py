@@ -1,5 +1,5 @@
 from gemini import shortcutter_model
-from gui_utils import press_shortcut
+from utils import press_shortcut
 
 def perform_shortcut(prompt: str) -> None:
     """

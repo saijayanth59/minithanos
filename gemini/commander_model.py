@@ -23,6 +23,7 @@ Command Format:
 - Analyze the uploaded file for a reference to the file paths
 - ONLY the command, no formattings, no explanations, no extra words.
 - Remember the files can contain SPACES in their names.
+- Don't use wildcards inside quotations
 RETURN LINUX COMMANDS ONLY.
 """),
             ],
