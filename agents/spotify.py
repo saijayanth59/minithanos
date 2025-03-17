@@ -2,7 +2,7 @@ import pyautogui as pg
 from time import sleep
 import subprocess
 
-def play_song(name: str) -> None:
+def play_song(name: str) -> dict:
     """
     Play a song on Spotify.
     Args:
@@ -15,6 +15,7 @@ def play_song(name: str) -> None:
     sleep(4)
     pg.hotkey("shift", "enter")
     pg.press("esc")
+    return {"message": "Done"}
     
 if __name__ == '__main__':
     play_song("dancing with your ghost")
