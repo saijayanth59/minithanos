@@ -1,10 +1,11 @@
-from gemini.client import client
+from .client import client
 from google.genai import types
 import os
 
 
 def generate(prompt):
-    file_path = os.path.join("..", "files.txt")  # very important to use os.path.join
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    file_path = os.path.join(project_root, "files.txt")
     files = [
         client.files.upload(file=file_path),
     ]
