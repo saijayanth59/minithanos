@@ -3,12 +3,26 @@ import pyperclip
 import subprocess
 
 
-def write_text(text):
+def write_code(text):
     for line in text.split("\n"):
         pg.hotkey("home")
         pyperclip.copy(line)
         pg.hotkey("ctrl", "v")
         pg.press("enter")
+    return {"message": "done"}
+
+
+def write_text(text: str) -> dict:
+    """
+    types the given text into the active text field
+    Args:
+        text (str): the text to type
+    """
+    pyperclip.copy(text)
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
+    return {"message": "done"}
+
 
 def press_shortcut(shortcut):
     pg.hotkey(*shortcut)
