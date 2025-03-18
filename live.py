@@ -4,14 +4,30 @@ import pyaudio
 from RealtimeSTT import AudioToTextRecorder
 from agents.all_functions import all_functions
 from google.genai import types
+from dotenv import load_dotenv
+import os
 
-client = genai.Client(api_key="AIzaSyA7SbKNMH1FWqgu232oTEAzjg_yisa4bWw",
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GENAI_API_KEY"),
                       http_options={'api_version': 'v1alpha'})
 model = "gemini-2.0-flash-exp"
-config = {
-    "response_modalities": ["AUDIO"],
-    "tools": list(all_functions.values()) + [{"google_search": {}}]
-}
+config = types.LiveConnectConfig(
+    response_modalities=["AUDIO"],
+    tools=list(all_functions.values()) + [{"google_search": {}}],
+    system_instruction=types.Content(
+        parts=[
+            types.Part(
+                text="You are a helpful assistant 'Alexa' and answer in a friendly tone. Don't give long responses. Respond like if you were talking to a friend. Give only SHORT responses.",
+            )
+        ]
+    ),
+    speech_config=types.SpeechConfig(
+        voice_config=types.VoiceConfig(
+            prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name="Aoede")
+        )
+    ),
+)
 
 
 async def async_enumerate(it):
@@ -52,7 +68,7 @@ async def main():
                     message = recorder.text()
                     print(message)
                     recorder.stop()
-                    if 'jarvis' in message.lower():
+                    if 'alexa' in message.lower():
                         await session.send(input=message, end_of_turn=True)
                         async for idx, response in async_enumerate(session.receive()):
                             if response.tool_call is not None:
@@ -65,7 +81,7 @@ async def main():
                     break
 
 if __name__ == "__main__":
-    recorder = AudioToTextRecorder(language="en", spinner=True)
+    recorder = AudioToTextRecorder(language="en", spinner=True, ensure_sentence_ends_with_period=True)
     while True:
         try:
             asyncio.run(main())
